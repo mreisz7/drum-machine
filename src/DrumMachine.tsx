@@ -13,15 +13,15 @@ export class DrumMachine extends React.Component<{}, DrumMachineState> {
     super(props);
     this.state = {
       sampleSrc: {
-        sample1: "/samples/kick1.wav",
-        sample2: "/samples/large-tom1.wav",
-        sample3: "/samples/medium-tom1.wav",
-        sample4: "/samples/small-tom1.wav",
-        sample5: "/samples/snare-bottom1.wav",
-        sample6: "/samples/sidestick1.wav",
-        sample7: "/samples/ride-bell1.wav",
-        sample8: "/samples/crash1.wav",
-        sample9: "/samples/chh1.wav",
+        sample1: "./samples/kick1.wav",
+        sample2: "./samples/large-tom1.wav",
+        sample3: "./samples/medium-tom1.wav",
+        sample4: "./samples/small-tom1.wav",
+        sample5: "./samples/snare-bottom1.wav",
+        sample6: "./samples/sidestick1.wav",
+        sample7: "./samples/ride-bell1.wav",
+        sample8: "./samples/crash1.wav",
+        sample9: "./samples/chh1.wav",
       },
       displayText: '',
     };
