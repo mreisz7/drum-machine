@@ -4,7 +4,7 @@ import './scss/index.scss';
 import { DrumMachine } from './DrumMachine';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<DrumMachine />, document.getElementById('root'));
+ReactDOM.render(<DrumMachine />, document.getElementById('drum-machine'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
